@@ -6,12 +6,6 @@ This is a personal portfolio in the form a website that built with react, node, 
 
 ## Screen Shot
 
-![deployed website](./src/images/Screen%20Shot%202022-05-21%20at%207.43.59%20PM.png)
-
 ## Deployed Link
 
-[Portfolio](https://jcouch5.github.io/react-portfolio/)
-
 ## Repository Link
-
-[GutHub](https://github.com/Jcouch5/react-portfolio/settings/pages)
