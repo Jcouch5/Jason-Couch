@@ -1,0 +1,139 @@
+/* create variables */
+:root {
+  --lightblue: #cce6ff;
+}
+/* universal selector to set font family*/
+* {
+  font-family: "Times New Roman", Times, serif;
+}
+/* sets background color for the page */
+.back {
+  background-color: #e6f2ff;
+}
+/* body selector sets display to flex and flex-direction to column */
+body {
+  display: flex;
+  flex-direction: column;
+}
+/* header selector sets display to flex and background color to lightblue */
+header {
+  display: flex;
+  background-color: var(--lightblue);
+}
+/* nav selector to display to flex, justifies context to the right side/flex end, and background color to blue */
+nav {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #66b3ff;
+}
+/* a inside of the nav sets margin, and text color */
+nav a {
+  margin: 1%;
+  color: black;
+}
+/* article inside aboutMe id sets display to flex, width, and height */
+#aboutMe article {
+  display: flex;
+  width: 100%;
+  height: 25%;
+}
+/* img inside aboutMe id sets width, height, margin, and floats the img to the left */
+#aboutMe img {
+  width: 30%;
+  height: 100%;
+  float: left;
+  margin: 2%;
+}
+/* aside inside aboutMe sets display to flex, flex direction to column, and centers content*/
+#aboutMe aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+/* p selector sets font size and line height */
+p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+/* h2 and h3 tag underlines text */
+h2,
+h3 {
+  text-decoration: underline;
+}
+/* work id sets display to flex, and flex direction to column */
+#work {
+  display: flex;
+  flex-direction: column;
+}
+/* img inside of work id sets display to flex, width, and flex growth */
+#work img {
+  display: flex;
+  width: 49%;
+  flex: 1;
+}
+/* pic1 class inside of work id sets display to flex and width  */
+#work .pic1 {
+  display: flex;
+  width: 100%;
+}
+
+.box {
+  background-color: #66b3ff;
+}
+.row {
+  --bs-gutter-x: 0;
+}
+.white {
+  color: black;
+}
+/* Sets the footer background color, list style, and centers text */
+footer {
+  background-color: #66b3ff;
+  list-style: none;
+  text-align: center;
+}
+/* li inside of footer sets font size */
+footer li {
+  font-size: 18px;
+}
+/* a inside of footer sets color */
+footer a {
+  color: darkblue;
+}
+ul {
+  list-style: none;
+}
+.black {
+  color: darkslategrey;
+}
+
+/* changes the color scheme when the screen size is below 720px*/
+@media screen and (max-width: 720px) {
+  .back {
+    background-color: darkgray;
+    color: white;
+  }
+  nav {
+    background-color: #4d4d4d;
+  }
+  nav a {
+    color: white;
+  }
+  header {
+    background-color: darkgray;
+    color: white;
+  }
+  footer {
+    background-color: black;
+    color: white;
+  }
+  footer a {
+    color: grey;
+  }
+  .box {
+    background-color: black;
+  }
+  .white {
+    color: white;
+  }
+}

@@ -25,8 +25,7 @@ function Body() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div>
-      <h1>Jason Couch</h1>
+    <div className="container back vh-100">
       <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
 
       {renderPage()}

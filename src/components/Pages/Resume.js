@@ -4,7 +4,11 @@ function Resume() {
     <div>
       <h3>Resume</h3>
       <div>
-        <img alt="Picture of Jason Couch's Resume" src={resume} />
+        <img
+          alt="Jason Couch's Resume"
+          src={resume}
+          className="mx-auto w-75 d-block"
+        />
       </div>
     </div>
   );

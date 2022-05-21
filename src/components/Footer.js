@@ -1,18 +1,27 @@
 function Footer() {
   return (
-    <div>
+    <footer className="mt-3">
       <ul>
         <li>
-          GitHub: <a href="https://www.github.com/jcouch5">Jcouch5</a>
+          GitHub:{" "}
+          <a href="https://www.github.com/jcouch5" className="black">
+            Jcouch5
+          </a>
         </li>
         <li>
-          LinkedIn: <a href="https://www.linkedin.com/in/jcouch5">Jcouch5</a>
+          LinkedIn:{" "}
+          <a href="https://www.linkedin.com/in/jcouch5" className="black">
+            Jcouch5
+          </a>
         </li>
         <li>
-          Other: <a href="https://google.com">other</a>
+          Other:{" "}
+          <a href="https://google.com" className="black">
+            other
+          </a>
         </li>
       </ul>
-    </div>
+    </footer>
   );
 }
 
